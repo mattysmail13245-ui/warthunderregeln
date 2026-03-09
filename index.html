@@ -148,6 +148,7 @@
     .rule:nth-child(3) { animation-delay: .15s; }
     .rule:nth-child(4) { animation-delay: .20s; }
     .rule:nth-child(5) { animation-delay: .25s; }
+    .rule:nth-child(6) { animation-delay: .30s; }
 
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(20px); }
@@ -366,6 +367,29 @@
       </div>
     </div>
 
+    <!-- §6 -->
+    <div class="rule danger">
+      <div class="rule-header">
+        <span class="rule-num">§6</span>
+        <span class="rule-title">Keine Grauzonennutzung</span>
+        <span class="rule-icon">⚖️</span>
+      </div>
+      <div class="rule-body">
+        Das bewusste Ausnutzen von <strong>Grauzonen, Regelungslücken oder
+        unklaren Formulierungen</strong> im Regelwerk ist strengstens untersagt.
+        Der Geist einer Regel gilt ebenso wie ihr Wortlaut. Wer versucht,
+        Regeln durch kreative Interpretation oder indirekte Umgehung zu
+        unterlaufen, wird genauso behandelt wie bei einem direkten Verstoß.
+        <br /><br />
+        Die Serverleitung entscheidet im Zweifelsfall abschließend über die
+        Auslegung einer Regel.
+        <br />
+        <span class="note">// Unwissenheit schützt vor Strafe nicht — im Zweifel nachfragen //</span>
+        <br />
+        <span class="badge-penalty">⚠ Sanktion: Verwarnung bis permanenter Ausschluss</span>
+      </div>
+    </div>
+
     <div class="divider">SONDERREGELUNG</div>
 
     <!-- §5 BANNED -->
@@ -390,8 +414,36 @@
   </main>
 
   <footer>
-    War Thunder DC &nbsp;·&nbsp; <span>Regelwerk v1.0</span> &nbsp;·&nbsp; Alle Rechte vorbehalten
+    War Thunder DC &nbsp;·&nbsp; <span>Regelwerk v1.1</span> &nbsp;·&nbsp; Alle Rechte vorbehalten
   </footer>
+
+  <!-- STRAFREGISTER -->
+  <section style="max-width:860px;margin:0 auto;padding:0 24px 60px;">
+    <div style="border:1px solid #3a1a1a;background:#0f0a0a;padding:28px 36px;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,0 100%);">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
+        <span style="font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:3px;color:#ef4444;border:1px solid #ef4444;padding:3px 12px;">STRAFREGISTER</span>
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-family:'Share Tech Mono',monospace;font-size:13px;">
+        <thead>
+          <tr style="border-bottom:1px solid #3a1a1a;color:#6b7c6b;letter-spacing:2px;">
+            <th style="text-align:left;padding:8px 12px;">MITGLIED</th>
+            <th style="text-align:left;padding:8px 12px;">VERSTOSS</th>
+            <th style="text-align:left;padding:8px 12px;">SANKTION</th>
+            <th style="text-align:left;padding:8px 12px;">STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #1a1010;">
+            <td style="padding:10px 12px;color:#fff;font-weight:bold;">Linus</td>
+            <td style="padding:10px 12px;color:#c8d8c0;">Umgehung §5 — Verwendung einer sinngemäß gleichwertigen Formulierung des verbotenen Begriffs</td>
+            <td style="padding:10px 12px;"><span style="background:rgba(245,197,66,.12);border:1px solid rgba(245,197,66,.4);color:#f5c542;padding:2px 10px;font-size:11px;letter-spacing:1px;">1. VERWARNUNG</span></td>
+            <td style="padding:10px 12px;"><span style="color:#ef4444;">● AKTIV</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:14px;font-family:'Share Tech Mono',monospace;font-size:11px;color:#6b7c6b;letter-spacing:1px;">// Bei einer weiteren Verwarnung droht der permanente Ausschluss gemäß §5 //</p>
+    </div>
+  </section>
 
 </body>
 </html>
